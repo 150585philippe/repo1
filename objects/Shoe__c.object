@@ -153,6 +153,30 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Shoes__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Shoe</label>
+        <referenceTo>Shoe__c</referenceTo>
+        <relationshipLabel>Shoes</relationshipLabel>
+        <relationshipName>Shoes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Socks__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Socks</label>
+        <referenceTo>Shoe__c</referenceTo>
+        <relationshipLabel>Shoes (Socks)</relationshipLabel>
+        <relationshipName>Shoes1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <gender>Feminine</gender>
     <label>Shoe</label>
     <listViews>

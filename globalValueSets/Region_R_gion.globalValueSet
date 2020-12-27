@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>APAC (APAC)</fullName>
+        <default>false</default>
+        <label>APAC (APAC)</label>
+    </customValue>
+    <description>For use in region fields throughout AW’s org. (À utiliser dans les champs Région de l’organisation d’AW.)</description>
+    <masterLabel>Region (Région)</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
