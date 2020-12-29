@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>50.0</version>
+    <types>
+        <members>Shoe__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Shoe__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Shoe__c-Shoe Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Shoe__c.All</members>
+        <name>ListView</name>
+    </types>
+</Package>
